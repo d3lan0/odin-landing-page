@@ -1,0 +1,118 @@
+/*Page def*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: #1F2937;;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+section, footer{
+    font-size: 18px;
+}
+
+/* Header and Nav styling*/
+
+.header{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.intro-content{
+    margin: 5rem 0;
+    display: flex;
+
+}
+
+.intro{
+    width: 45%;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: .5rem 2rem;
+    margin: .5rem 0;
+    color: #E5E7EB;
+}
+
+/* Gallery Styling */
+.gallery{
+    text-align: center;
+  }
+
+
+/*Quote Styling*/
+.quote{
+    background-color: #E5E7EB;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+blockquote{
+   width: 60%;
+   text-align: justify;
+   margin: 5rem auto;
+}
+
+cite{
+    font-weight: bold;
+}
+
+/*Call to action Styling*/
+.action-container{
+    background-color: #3882F6;
+    width: 60%;
+    height: 70%;
+    margin: 5rem auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: #E5E7EB;
+}
+
+.action-container button{
+    border: 1px solid #E5E7EB;
+}
+
+.action-content{
+    margin: 0 3rem;
+}
+
+/*Footer Styling*/
